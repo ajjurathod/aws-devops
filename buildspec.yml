@@ -1,5 +1,4 @@
 version: 0.2
-
 env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: /myapp/docker-credentials/username
@@ -28,6 +27,5 @@ artifacts:
   files:
     - '**/*'
   base-directory: ../simple-python-app
-   name: nyvq9PF
-   discard-paths: no
-
+  name: nyvq9PF
+  discard-paths: no
